@@ -1,0 +1,209 @@
+*{
+   
+    margin: 0px;
+    padding-top: 0px;
+    overflow-x: hidden;
+    
+}
+
+header
+{
+    background-image: url(../images/Donation/Hero_image.png);
+    background-size: cover;
+    position: center;
+    height: 80vh;
+}
+body
+{
+   margin:0px;
+   
+}
+
+h1, h2, h3, h4, h5, h6
+{
+ font-family: "SansBlack",serif;
+ overflow-y: hidden;
+ padding-left: 20px;
+ padding-top: 20px;
+ color:#F27830;
+ text-align: center;
+ 
+}
+
+p{
+  font-family: "Poppins", sans-serif;
+}
+
+button{
+  text-decoration: underline;
+  background-color:white;
+  border: none;
+  font-family: "Poppins", serif;
+  font-size: 28px;
+  font-weight: 500;
+  color:black;
+  padding-left: 75%;
+}
+
+button:hover, button:active
+{
+  color: #f27830;
+}
+
+footer
+{
+    background-color: #666666;
+}
+footer ul
+{
+    display: flex;
+    margin:0px;
+    padding: 0px 100px;
+    float: middle;
+    padding-right: 0px;
+   
+}
+
+ footer li
+{
+    list-style: none;
+    float:middle;
+     padding: 10px;
+     font-size: 20px;
+}
+
+ footer li a{
+    display: block;
+    color: white;
+     padding: 5px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Poppins",serif ;
+    transition: all 0.2s ease-in;
+ }
+
+ footer ul li a:hover
+ {
+   color: #f27830 !important;
+   
+ }
+
+ .footer_img
+ {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    
+}
+
+.icons
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+       
+}
+
+.icons_size
+{
+    padding:10px;
+    width:96px;
+}
+
+.icons_size:hover
+{
+    transform: (180);
+    cursor:pointer;
+    color: #f27830;
+}
+
+.copyright
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cp_icon
+{
+    padding:10px;
+}
+
+.cp_content
+{
+    padding:10px;
+    margin-bottom: 0px;
+    color:white;
+}
+
+/*logo block*/
+.logo
+{
+    width: 100px;
+   padding-left: 20px;
+   padding-top: 10px;
+}
+
+/*nav block*/
+nav ul
+{
+    display: flex;
+    margin:0px;
+    padding: 0px 100px;
+    float: right;
+    padding-right: 0px;
+   
+}
+
+/*nav links*/
+nav li
+{
+    list-style: none;
+     float: right; 
+     padding: 10px;
+     font-size: 20px;
+}
+
+/*nav headings*/
+nav li a
+{
+  display: block;
+  color: white;
+   padding: 5px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Poppins",serif ;
+  transition: all 0.2s ease-in;
+}
+
+nav ul li a:hover
+ {
+   color: #f27830 !important;
+ }
+
+ .div_contri
+ {
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-top: 10px;
+    padding-bottom:10px;
+ }
+ .content_contri
+ {
+     text-align:center;
+     width: 1278px;
+     height: 89px;
+    
+ }
+
+ .box
+ {
+     border: 1px solid black;
+     background-color: white;
+ }
