@@ -186,10 +186,22 @@ nav li a
   transition: all 0.2s ease-in;
 }
 
-nav ul li a:hover
+ nav ul li a:hover
  {
-   color: #f27830 !important;
+   color:  #F29422 !important;
  }
+
+ /*Donate*/
+ .Donate, .Petition
+ {
+     color: #F29422;
+ }
+
+ .Donate:hover, .Petition:hover,.Donate:active, .Petition:active
+ {
+     color:#F2DBAE !important;
+ }
+ 
 /*align_text*/
 .align
 {
