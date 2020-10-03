@@ -90,6 +90,12 @@
             </div>
 
             <button  onclick= "location.href='Form2.html'">Next</button>
+            <script>
+              var form = document.getElementById("myForm");
+              function handleForm(event) { event.preventDefault(); } 
+              form.addEventListener('submit', handleForm);
+            </script>
+
           </form>
          </div>
         </div>
