@@ -18,20 +18,21 @@ header
 body
 {
    margin:0px;
-   
+  
 }
 
 h1, h2, h3, h4, h5, h6
 {
-    font-family: "SansBlack",serif;
+    font-family: "Poppins",serif;
     overflow-y: hidden;
    padding-left: 20px;
    padding-top: 20px;
 }
 
 p{
-    font-family: "Poppins", sans-serif;
+    font-family: "montserrat", sans-serif;
 }
+
 
 button{
     text-decoration: underline;
@@ -51,7 +52,7 @@ button:hover, button:active
 
 footer
 {
-    background-color: #666666;
+    background-color: #707070;
 }
 /*logo block*/
 .logo
@@ -96,14 +97,20 @@ nav li a
 
 nav ul li a:hover
  {
-   color: #f27830 !important;
+   color: #F29422 !important;
  }
 
  /*Donate*/
  .Donate, .Petition
  {
-     color: #F2D16D;
+     color: #F29422;
  }
+
+ .Donate:hover, .Petition:hover,.Donate:active, .Petition:active
+ {
+     color:#F2DBAE !important;
+ }
+ 
 /*mission heading*/
 .mission_heading
 {
@@ -293,7 +300,7 @@ nav ul li a:hover
 
  footer li a{
     display: block;
-    color: white;
+    color:white;
      padding: 5px;
      padding-top: 15px;
      padding-bottom: 15px;
@@ -305,7 +312,7 @@ nav ul li a:hover
 
  footer ul li a:hover
  {
-   color: #f27830 !important;
+   color: #F2D16D !important;
    
  }
 

@@ -50,6 +50,7 @@ button:hover, button:active
   color: #f27830;
 }
 
+
 footer
 {
     background-color: #707070;
@@ -87,7 +88,7 @@ footer ul
 
  footer ul li a:hover
  {
-   color:  #F2D16D !important;
+   color: #F2D16D !important;
    
  }
 
@@ -187,17 +188,18 @@ nav ul li a:hover
  {
    color:  #F29422 !important;
  }
- 
-/*Donate*/
-.Donate, .Petition
-{
-    color: #F29422;
-}
 
-.Donate:hover, .Petition:hover,.Donate:active, .Petition:active
-{
-    color:#F2DBAE !important;
-}
+ /*Donate*/
+ .Donate, .Petition
+ {
+     color: #F29422;
+ }
+
+ .Donate:hover, .Petition:hover,.Donate:active, .Petition:active
+ {
+     color:#F2DBAE !important;
+ }
+ 
 
  .div_contri
  {
@@ -240,10 +242,36 @@ nav ul li a:hover
  
  .align_items
  {
-     width: 300px;
-   margin: 0 auto;
+     width: 400px;
+     margin: 0 auto;
  }
- 
+  
+ /*credit card*/
+
+ .flex_images
+ {
+     display: flex;
+     align-items:  center;
+     justify-content: center;
+ }
+
+ .card_img
+ {
+     width: 140px;
+     height: 70px;
+     padding: 5px;
+ }
+
+ .inline1
+ {
+     padding-left: 0%;
+ }
+
+ .inline_div
+ {
+     display: flex;
+ }
+
  label{
-    font-family: "poppins", sans-serif;
-}
+     font-family: "poppins", sans-serif;
+ }
