@@ -10,7 +10,7 @@ header
 {
     background-image: url(../images/hero_copy.jpg);
     background-size: cover;
-    height: 100vh; 
+    height: 120vh; 
     overflow-y: hidden;
    
 }  
@@ -23,26 +23,32 @@ body
 
 h1, h2, h3, h4, h5, h6
 {
-    font-family: "Poppins",serif;
-    overflow-y: hidden;
-   padding-left: 20px;
-   padding-top: 20px;
+   font-family: "SansBlack",serif;
+   overflow-y: hidden;
+   padding-left: 40px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   text-transform: uppercase;
 }
 
+
 p{
-    font-family: "montserrat", sans-serif;
-}
+    font-family: "poppins",sans-serif;
+   }
 
 
 button{
     text-decoration: underline;
     background-color:white;
     border: none;
-    font-family: "Poppins", serif;
-    font-size: 28px;
+    font-family: "Poppins", serif !important;
+    font-size: 18px !important;
+    float:right;
+    padding-left: 220px;
+    text-transform: uppercase !important;
     font-weight: 500;
     color:black;
-    padding-left: 75%;
+    
 }
 
 button:hover, button:active
@@ -57,7 +63,7 @@ footer
 /*logo block*/
 .logo
 {
-    width: 100px;
+   width: 160px;
    padding-left: 20px;
    padding-top: 10px;
 }
@@ -78,7 +84,7 @@ nav li
     list-style: none;
      float: right; 
      padding: 10px;
-     font-size: 20px;
+     font-size: 18px;
 }
 
 /*nav headings*/
@@ -104,6 +110,7 @@ nav ul li a:hover
  .Donate, .Petition
  {
      color: #F29422;
+     text-decoration: underline;
  }
 
  .Donate:hover, .Petition:hover,.Donate:active, .Petition:active
@@ -134,29 +141,92 @@ nav ul li a:hover
  /*mission statement*/
 .mission_statement
 {
-    width:90%;
-    padding: 20px;
+    width: 80%;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right:20px;     
+    padding-top:10px;
     color:white;
     text-decoration: underline;
-    line-height: 24px;
+    overflow-y: hidden;
 }
 
+.no_underline
+{   
+    width: 80%;
+    font-size:18px;
+    padding-left: 20px;
+    padding-right:20px;    
+    color:white;
+    text-decoration: none;
+    overflow-y: hidden;
+}
 .make_change
 {
     color:white;
     background-color: inherit;
-    padding-left: 140px;
+    font-size: 18px;
+    float:right;
+    padding-left: 220px;
+    text-transform: uppercase;
+    
 }
  /*partners*/
+ .pad_hed
+ {
+     padding-top: 40px;
+ }
 .part_images
 {
     display:flex;
     padding:20px;
+    
 }
 
-.part_images img{
+.image1
+{
     width:133px;
     height:48px;
+}
+.image2
+{
+    width:121px;
+    height:105px;
+}
+.image3
+{
+    width:139px;
+    height:33px;
+}
+.image4
+{
+    width:135px;
+    height:39px;
+}
+.image5
+{
+    width:125px;
+    height:169px;
+}
+.image6
+{
+    width:167px;
+    height:156px;
+}
+.image7
+{
+    width:162px;
+    height:58px;
+}
+.image8
+{
+    width:147px;
+    height:42px;
+}
+.image9
+{
+    width:107px;
+    height:139px;
 }
  /*division1*/
  .division1
@@ -176,11 +246,17 @@ nav ul li a:hover
      padding-right:40px;
      padding-top:20px;
      padding-bottom: 40px;
+    
  }
-
+.h_p_container h2
+{
+    font-family: "poppins";
+    text-transform: none;
+}
  .para_sept
  { 
      padding: 20px;
+     padding-left: 40px;
      width: 674px;
      height:300px;
      padding-right:90px;
@@ -205,11 +281,13 @@ nav ul li a:hover
      padding-left:20px;
      padding-top:40px;
      padding-bottom: 20px;
+     font-family: "poppins";
  }
 
  .para_july
  {
     padding: 20px;
+    padding-left: 40px;
     width: 674px;
     height:300px;
     padding-right:90px;
@@ -233,8 +311,11 @@ nav ul li a:hover
  .article_wrapper
  {
      padding-bottom: 20px;
+     height: 130vh;
+     
  }
-
+ 
+ 
  /*Cards*/
  .cards
  {
@@ -243,9 +324,9 @@ nav ul li a:hover
      justify-content: center;
      z-index: 500;
      background-image: url(../images/bg_div.png);
-     background-position: center;
-     background-size: cover;
-     
+     background-size: contain;
+     background-repeat: no-repeat;
+     overflow-y: hidden;
  }
 
  
@@ -263,20 +344,33 @@ nav ul li a:hover
 
  .card-img-top
  {
-     height: 60%;
+     height: 80% !important;  
+    
  }
 
  .card-title
  {
      font-family: "Poppins",serif;
      text-align: center;
+     padding:10px;
 
  }
 
+ .card-body
+ {
+     width:auto !important;
+     height:173px !important;
+     align-content:  center;
+ }
+
+ .card-title{
+     text-transform: none;
+     font-family: "poppins";
+ }
  .card-text
  {
      text-align: center;
-     padding:20px;
+     padding:5px;
  }
 
  /*footer*/
@@ -284,16 +378,17 @@ nav ul li a:hover
 {
     display: flex;
     margin:0px;
-    padding: 0px 100px;
-    float: middle;
+    justify-content: center;
+    align-items: center;  
     padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
    
 }
 
  footer li
 {
     list-style: none;
-    float:middle;
      padding: 10px;
      font-size: 20px;
 }
@@ -304,6 +399,7 @@ nav ul li a:hover
      padding: 5px;
      padding-top: 15px;
      padding-bottom: 15px;
+     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     font-family: "Poppins",serif ;
@@ -321,8 +417,8 @@ nav ul li a:hover
      display: block;
      margin-left: auto;
      margin-right: auto;
-     padding-top: 10px;
-     padding-bottom: 10px;
+     padding-top: 20px;
+     padding-bottom: 20px;
     
 }
 
@@ -336,10 +432,19 @@ nav ul li a:hover
 
 .icons_size
 {
-    padding:10px;
+    padding:20px;
+    padding-top: 30px;
+    margin-right:180px;
     width:96px;
 }
 
+.icons_size1
+{
+    padding:20px;
+    padding-top: 30px;
+    margin-left:180px;
+    width:96px;
+}
 .icons_size:hover
 {
     transform: (180);
@@ -364,4 +469,9 @@ nav ul li a:hover
     padding:10px;
     margin-bottom: 0px;
     color:white;
+}
+
+.li li
+{
+  font-size: 16px;
 }
