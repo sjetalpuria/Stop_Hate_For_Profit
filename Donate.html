@@ -89,11 +89,14 @@
               </div>
             </div>
 
-            <button  onclick= "location.href='Form2.html'">Next</button>
-            <script>
-              var form = document.getElementById("myForm");
-              function handleForm(event) { event.preventDefault(); } 
-              form.addEventListener('submit', handleForm);
+            <button id="myBut" onclick= "location.href='Form2.html'">Next</button>
+            <script type= "text/javascript">
+              document.getElementById("myBut").onclick = function()
+              {
+                location.href="from2.html"
+              };
+              function handleForm(onclick) { event.preventDefault(); } 
+              
             </script>
 
           </form>
