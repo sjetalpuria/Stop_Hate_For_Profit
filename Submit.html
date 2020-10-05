@@ -11,39 +11,42 @@
      <!--Bootstrap-->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
 
     <body>
      
-      <!--Nav section-->
-        <header> 
-            <section>
-             <nav> 
-              <img  class ="logo"src="images/StopHateLogo.png">
-                 <ul>
-                     <li><a href = "#"> Spread the word </a></li>
-                     <li><a href = "#"> Non-profit </a></li>
-                     <li><a href = "#"> FAQ</a></li>
-                     <li><a href = "#"> Our Campaigners</a></li>
-                     <li><a href= "#" class="Donate"onclick= "location.href='Donate.html'"> Donate</a></li>
-                     <li><a href = "#" class="Petition"> Petition</a></li>
-                     </ul>
-             </nav>
-
-            </section>
-
-        </header>
-
+       <!--Nav section-->
+       <header> 
         <section>
+           <nav> 
+           <img  class ="logo" onclick= "location.href='index.html'"src="images/StopHateLogo.png">
+             <ul>
+                 <li><a href = "#"> Spread the word </a></li>
+                 <li><a href = "#"> Non-profit </a></li>
+                 <li><a href = "#"> FAQ</a></li>
+                 <li><a href = "#"> Our Campaigners</a></li>
+                 <li><a class="Donate" href= "#" onclick= "location.href='Donate.html'"> Donate</a></li>
+                 <li><a class="Petition" href = "#"> Petition</a></li>
+                 </ul>
+         </nav>
+        </section>
+       </header>
+        <section>
+          <div data-aos="zoom-in" data-aos-duration="3000">
+          <div class="Successful" >
             <H1>
-                Donation Successful!
-            </H1>
+              Donation Successful!
+          </H1>
+          </div>
+            
             
             <div class="align">
             <p>
                 Keep a lookout for a confirmation email.
             </p>
         </div>
+      </div>
             <div class="inline_div">
                 <button onclick= "location.href='index.html'"class="but1">Done</button>
                 <button class="but2">Spread the word</button>
@@ -55,14 +58,15 @@
         </section>
 
         <section>
-            <footer>
-              <div class="icons">
+  
+          <footer>
+                <div class="icons">
                 <img class="icons_size"src="images/Fb-icon.png">
-                <img class="icons_size"src="images/twitter-icon.png">
+                <img class="icons_size1"src="images/twitter-icon.png">
               </div>
          
               <div>
-                <img class="footer_div" src="images/footer_div.png">
+                <img class="footer_img" src="images/footer_div.png">
               </div>
          
               <div>
@@ -71,8 +75,8 @@
                  <li><a href = "#"> Non-profit </a></li>
                  <li><a href = "#"> FAQ</a></li>
                  <li><a href = "#"> Our Campaigners</a></li>
-                 <li><a  href= "#" onclick= "location.href='Donate.html'"> Donate</a></li>
-                 <li><a  href = "#"> Petition</a></li>
+                 <li><a href= "#" onclick= "location.href='Donate.html'"> Donate</a></li>
+                 <li><a href = "#"> Petition</a></li>
                  </ul>
               </div>
          
@@ -80,9 +84,9 @@
                <img class="footer_img" src="images/footer_div.png">
               </div>
          
-              <div>
+              <div class="li">
                <ul>
-                 <li><a href = "#"> Terms of Use </a></li>
+                 <li ><a href = "#"> Terms of Use </a></li>
                  <li><a href = "#"> Privacy & cookies </a></li>
                  <li><a href = "#"> Contact Us</a></li>
                  <li><a href = "#"> Equal Opportunity Employer</a></li>
@@ -90,7 +94,7 @@
               </div>
          
               <div>
-               <img class="footer_div"src="images/footer_div.png">
+               <img class="footer_img"src="images/footer_div.png">
               </div>
               
               <div class="copyright">
@@ -99,11 +103,18 @@
                  2020 Stop Hate for Profit
                 </p>
               </div>
+            
           </footer>
-        </section>
+          
+         </section>
      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     </body>
     
     </html>

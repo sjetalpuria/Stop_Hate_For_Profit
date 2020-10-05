@@ -123,6 +123,7 @@ nav ul li a:hover
 {
     color:white;
     padding: 0px;
+    font-family: "SansBlack";
 }
  /*header content*/
  .Header_content
@@ -176,58 +177,18 @@ nav ul li a:hover
  {
      padding-top: 40px;
  }
+
+ 
 .part_images
 {
-    display:flex;
-    padding:20px;
+    width: 1100px;
+    margin-left: 100px;
+    margin-right: 100px;
     
 }
 
-.image1
-{
-    width:133px;
-    height:48px;
-}
-.image2
-{
-    width:121px;
-    height:105px;
-}
-.image3
-{
-    width:139px;
-    height:33px;
-}
-.image4
-{
-    width:135px;
-    height:39px;
-}
-.image5
-{
-    width:125px;
-    height:169px;
-}
-.image6
-{
-    width:167px;
-    height:156px;
-}
-.image7
-{
-    width:162px;
-    height:58px;
-}
-.image8
-{
-    width:147px;
-    height:42px;
-}
-.image9
-{
-    width:107px;
-    height:139px;
-}
+
+
  /*division1*/
  .division1
  {
@@ -323,9 +284,10 @@ nav ul li a:hover
      flex-direction: row;
      justify-content: center;
      z-index: 500;
-     background-image: url(../images/bg_div.png);
-     background-size: contain;
+     background-image: url(../images/bg_div2.png);
+     background-size: cover;
      background-repeat: no-repeat;
+     background-position: center;
      overflow-y: hidden;
  }
 

@@ -19,6 +19,7 @@
      <header> 
         <section>
          <nav> 
+          <img  class ="logo"onclick="location.href='index.html'"src="images/StopHateLogo.png">a
              <ul>
                  <li><a href = "#"> Spread the word </a></li>
                  <li><a href = "#"> Non-profit </a></li>
@@ -30,11 +31,11 @@
          </nav>
 
         </section>
-
+     </header>
     </header>
 
           <section>
-            <div  data-aos="zoom-in" data-aos-duration="3000" >
+            <div class="heading" data-aos="zoom-in" data-aos-duration="3000" >
               <div>
               <h1>
                 Thank you for your contribution!
@@ -55,12 +56,7 @@
           
           <div class="bg_div">
           <div class="box" data-aos="flip-right" data-aos-duration="3000">
-            <div>
-              <h1>
-                  Personal Info
-              </h1>
-            </div>
-            
+                      
             <div class="flex_images">
                <div>
                    <img class="card_img" src="images/Donation/master.png">
@@ -76,14 +72,13 @@
 
         </div>
 
-        <div>
-            <h2>
-                Type of Donation
-            </h2>
-        </div>
-
            <div class="align_items">
-            <form>
+            <div>
+              <h2 class="heading1">
+                  Type of Donation
+              </h2>
+          </div>
+            <form action="/action_page.php"class="padding_60">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                     <label class="form-check-label" for="inlineRadio1">One Time Gift</label>
@@ -99,11 +94,11 @@
                   </div>
                 </form>
 
-                  <h1>
+                  <h2 class="heading1">
                       Amount
-                  </h1>
+                  </h2>
        
-             <form>
+             <form action="/action_page.php" class="padding_60">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                     <label class="form-check-label" for="inlineRadio1">$10</label>
@@ -124,14 +119,14 @@
                   </div>
                   
              </form>
-             <h2>
+             <h2 class="heading1">
                Payment Information
             </h2>
 
-            <form>
+            <form action="/action_page.php" class="padding_40">
                   <div class="form-group col-md-10">
                     <label for="cardNumber">Card Number</label>
-                    <input type="text" class="form-control" id="cardNumber" placeholder="Enter the number" required>
+                    <input required type="text" class="form-control" id="cardNumber" placeholder="Enter the number" >
                     <small id="cardHelp" class="form-text text-muted">We'll never share your info with anyone else.</small>
                   </div>
 
@@ -149,74 +144,81 @@
 
                   <div class="form-group col-md-12">
                     <label for="add">Billing Address</label>
-                    <input type="text " class="form-control" id="add" placeholder="Billing Address" required>
+                    <input type="text " class="form-control" style="width: 520px;height: 38px;"id="add" placeholder="Billing Address" required>
                   </div>
+
+                                     
             </form>
 
-            <h2>
+           <h2 class="heading1">
                 Donation Message(optional)
             </h2>
             <div class="form-group">
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+              <textarea class="form-control " id="exampleFormControlTextarea1" rows="5" style="width: 514px;margin-left: 60px;height: 134px;"></textarea>
 
               </div>
                
               <div class="inline_div">
                 <button onclick= "location.href='Donate.html'"class="inline1">Back</button>
-                <button onclick= "location.href='Submit.html'">Submit</button>
+                <button style="
+                padding-left: 0px;
+                margin-left: 380px;"onclick= "location.href='Submit.html'">Submit</button>
               </div>
            </div>
           </div>
           </div>
         </section>  
   
-          <section>
-          <footer >
-            <div class="icons">
-              <img class="icons_size"src="images/Fb-icon.png">
-              <img class="icons_size"src="images/twitter-icon.png">
-            </div>
-       
-            <div>
-              <img class="footer_div" src="images/footer_div.png">
-            </div>
-       
-            <div>
-             <ul>
-               <li><a href = "#"> Spread the word </a></li>
-               <li><a href = "#"> Non-profit </a></li>
-               <li><a href = "#"> FAQ</a></li>
-               <li><a href = "#"> Our Campaigners</a></li>
-               <li><a href= "#" onclick= "location.href='Donate.html'"> Donate</a></li>
-               <li><a  href = "#"> Petition</a></li>
-               </ul>
-            </div>
-       
-            <div>
-             <img class="footer_img" src="images/footer_div.png">
-            </div>
-       
-            <div>
-             <ul>
-               <li><a href = "#"> Terms of Use </a></li>
-               <li><a href = "#"> Privacy & cookies </a></li>
-               <li><a href = "#"> Contact Us</a></li>
-               <li><a href = "#"> Equal Opportunity Employer</a></li>
-               </ul>
-            </div>
-       
-            <div>
-             <img class="footer_div"src="images/footer_div.png">
-            </div>
+        <section>
+  
+          <footer>
+                <div class="icons">
+                <img class="icons_size"src="images/Fb-icon.png">
+                <img class="icons_size1"src="images/twitter-icon.png">
+              </div>
+         
+              <div>
+                <img class="footer_img" src="images/footer_div.png">
+              </div>
+         
+              <div>
+               <ul>
+                 <li><a href = "#"> Spread the word </a></li>
+                 <li><a href = "#"> Non-profit </a></li>
+                 <li><a href = "#"> FAQ</a></li>
+                 <li><a href = "#"> Our Campaigners</a></li>
+                 <li><a href= "#" onclick= "location.href='Donate.html'"> Donate</a></li>
+                 <li><a href = "#"> Petition</a></li>
+                 </ul>
+              </div>
+         
+              <div>
+               <img class="footer_img" src="images/footer_div.png">
+              </div>
+         
+              <div class="li">
+               <ul>
+                 <li ><a href = "#"> Terms of Use </a></li>
+                 <li><a href = "#"> Privacy & cookies </a></li>
+                 <li><a href = "#"> Contact Us</a></li>
+                 <li><a href = "#"> Equal Opportunity Employer</a></li>
+                 </ul>
+              </div>
+         
+              <div>
+               <img class="footer_img"src="images/footer_div.png">
+              </div>
+              
+              <div class="copyright">
+                <img class="cp_icon"src="images/Cp-icon.png">
+                <p class="cp_content">
+                 2020 Stop Hate for Profit
+                </p>
+              </div>
             
-            <div class="copyright">
-              <img class="cp_icon"src="images/Cp-icon.png">
-              <p class="cp_content">
-               2020 Stop Hate for Profit
-              </p>
-            </div>
-        </footer>
-      </section>
+          </footer>
+          
+         </section>
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
